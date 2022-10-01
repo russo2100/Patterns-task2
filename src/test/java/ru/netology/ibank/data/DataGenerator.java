@@ -50,8 +50,8 @@ public class DataGenerator {
         }
 
         public static RegistrationDto getUser(String status) {
-            RegistrationDto user = new RegistrationDto(getRandomLogin(), getRandomPassword(), status);
-            return user;
+            RegistrationDto users = new RegistrationDto(getRandomLogin(), getRandomPassword(), status);
+            return users;
         }
 
         public static RegistrationDto getRegisteredUser(String status) {
